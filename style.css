@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --purple: #2D2641;
+    --white: #fff;
+    --black: #000000;
+    --pink: #C396C6;
+    --kindofbrown: #2C2830;
+    --Grey: #837D88;
+    --Almostwhite: #DADADA;
+
+}
+
+.Footerwave{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla' 'DM Serif Display';
+}
+
+
+header{
+    
+    position: relative;
+    width: 375px;
+    height: auto;
+    background-color: var(--purple);
+    overflow: hidden;
+}
+
+.White{
+    height: 80px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Insure{
+    font-size: 30px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    color: var(--black);
+    margin-left: 24px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--black);
+    gap: 2px;
+    margin-right: 24px;
+    padding-top: 5px;
+}
+
+.Burgermenu{
+    width: 375px;
+    height: 587px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    background-color: var(--kindofbrown);
+    transition: all 2s;
+    transform: translate(-106%);
+    z-index: 4;
+}
+
+.active{
+    transform: translatex(0%);
+    transition: all 2s;
+}
+
+.zukito img{
+    position: absolute;
+    top: 370px;
+}
+
+.Burgermenu header{
+    height: 45px;
+    background-color: white;
+}
+
+.zurabi{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.zurabi img{
+    margin-right: 24px;
+}
+
+.zukito{
+    margin-top: 40px;
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.vaska{
+    width: 327px;
+    height: 56px;
+    background: none;
+    border: 2px solid white;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 200%; 
+    letter-spacing: 1.364px;
+}
+
+h4{
+    width: 327px;
+    color: var(--white);
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200% ;
+    letter-spacing: 1.364px;
+}
+
+.Burgermenu header p{
+    font-size: 30px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    color: var(--black);
+    margin-left: 24px;
+}
+
+
+.icon{
+    width: 16px;
+    height: 2px;
+    background-color: var(--black);
+}
+
+.Text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Human{
+    margin-top: 93px;
+    width: 327px;
+    height: 96px;
+    color: var(--white);
+    text-align: center;
+    font-family: 'DM Serif Display';
+    font-size: 48px;
+    font-weight: 400;
+    line-height:100%;
+    letter-spacing: -0.667px;
+}
+
+.Get-life{
+    padding-top: 16px;
+    width: 327px;
+    height: 130px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5% ;
+    opacity: 0.6;
+}
+
+.Sutidze{
+    width: 146px;
+    height: 40px;
+    border: 1.5px solid var(--white);
+    background: none;
+    margin-top: 40px;
+    margin-bottom: 92px;
+    color: var(--white);
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.Lines{
+  position: absolute;
+  left: 0;
+  top: 530px;
+}
+
+.Lines2{
+    position: absolute;
+    top: 875px;
+    right: 0;
+}
+
+.Parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Pinkline{
+    width: 150px;
+    height: 1px;
+    background-color: var(--black);
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.Different p{
+    color: #2C2830;
+    text-align: center;
+    font-family: 'DM Serif Display';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100% ;
+    letter-spacing: -0.667px;
+}
+
+h3{
+    color: var(--kindofbrown);
+    text-align: center;
+    font-family: 'DM Serif Display';
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.389px;
+    width: 327px;
+    height: 38px;
+    margin-top: 32px;
+    position: absolute;
+    top: 50%;
+}
+
+h6{
+    color: var(--Grey);
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5% ;
+    width: 327px;
+    height: 78px;
+    margin-top: 16px;
+    position: absolute;
+    top: 75%;
+}
+
+.Text-boxes{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Box{
+    margin-bottom: 56px;
+    width: 327px;
+    height: 250px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.Icons{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+
+.Purple-box{
+    margin-top: 140px;
+    width: 327px;
+    height: 344px;
+    background-color: var(--purple);
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.Find{
+    padding-top: 72px;
+    color: var(--white);
+    text-align: center;
+    font-family: 'DM Serif Display';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.556px;
+}
+
+.Insteadoflogo{
+    display: none;
+}
+
+.Desktop{
+    display: none;
+}
+
+.headerline{
+    display: none;
+}
+
+.Purple-box button{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    border: 1.5px solid var(--white);
+    background: none;
+    color: var(--white);
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    top: 75%;
+    left: 25%;
+}
+
+.Purple-box img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+footer{
+    position: relative;
+    padding:88px 0px;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: auto;
+}
+
+.Lastoval{
+    position: absolute;
+    top:0;
+} 
+
+
+.Insure2{
+    padding-bottom: 32px;
+    font-size: 30px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    color: var(--black);
+}
+
+.Line-2{
+    background: var(--Almostwhite);
+    width: 327px;
+    height: 1px;
+    flex-shrink: 0;
+    margin-top: 40px;
+}
+
+.Last-div{
+    margin-top: 40px;
+}
+
+.zuka{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+h1{
+    padding-bottom: 36px;
+    color: var(--Grey);
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+h2{
+    padding-bottom: 16px;
+    color: var(--purple);
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}

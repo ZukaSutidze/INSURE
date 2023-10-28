@@ -1,0 +1,242 @@
+@media (width>1439px){
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 600px;
+    overflow:visible;
+}
+
+.Sutidze{
+    position: relative;
+    left: -200px;
+}
+
+.zuka{
+    z-index: 10;
+}
+
+.ojaxi{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+.marjvena{
+    position: absolute;
+    top:10%;
+    right: -3%;
+    z-index: 20;
+}
+
+.kutxe{
+    position: absolute;
+    top: 70%;
+}
+
+.Sutidze:hover{
+    background-color: black;
+    transition: all 1s;
+    color: white;
+}
+
+.logo{
+    display: none;
+}
+
+.Desktop{
+    display: block;
+}
+
+.Parent{
+    margin-top: 155px;
+}
+
+
+
+.Insure{
+    margin-left: 165px;
+}
+
+.Insteadoflogo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    margin-right: 165px;
+    z-index: 10;
+}
+
+.zuka h1:hover{
+    color: #2C2830;
+    text-decoration: underline;
+}
+
+.zuka h2:hover{
+    color: #2C2830;
+    text-decoration: underline;
+}
+
+.Insteadoflogo p{
+    color: #837D88;
+    text-align: center;
+    font-family: 'Karla';
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.Insteadoflogo p:hover{
+    color: #2C2830;
+    text-decoration: underline;
+}
+
+.Insteadoflogo button{
+    width: 146px;
+    height: 40px;
+    flex-shrink: 0;
+    background: none;
+    text-align: center;
+    color: #2C2830;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+.Text-box{
+    position: absolute;
+    left: 150px;
+ 
+}
+
+.Text-box p{
+    text-align: left;
+}
+
+.Human{
+    font-size: 72px;
+    letter-spacing: -1px;
+    width: 540px;
+}
+
+.Get-life{
+    padding-top: 60px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 162.5%;
+}
+
+.headerline{
+    width: 150px;
+    height: 1px;
+    background: #FFF;
+    position: relative;
+}
+
+.Insteadoflogo button:hover{
+    color: white;
+    background-color: #2C2830;
+    transition: all 2s;
+}
+
+footer{
+    width: 100vw;
+    height: auto; 
+}
+
+.Last-div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 280px;
+}
+
+h1 , h2{
+    text-align: left;
+}
+
+.Insure2{
+    padding-bottom: 0px;
+}
+
+.davigale{
+    padding: 0px 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+.Line-2{
+    width: 1200px;
+}
+
+.Pinkline{
+    position: relative;
+    left: -489px;
+}
+
+.Different p{
+    font-size: 72px;
+    width: 666px;
+    height: 64px;
+    text-align: left;
+    position: relative;
+    left: -35%;
+}
+
+.Text-boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.Purple-box{
+    grid-column: 1/4;
+    width: 1110px;
+    height: 250px;
+}
+
+.Purple-box button{
+    top: 37%;
+    left: 75%;
+    z-index: 1;
+}
+
+.Howwework:hover{
+    background-color: black;
+    transition: all 1s;
+}
+
+.Mobile{
+    display: none;
+}
+
+h6 , h3{
+   text-align: left;
+}
+
+.Icons{
+    left: 0;
+}
+
+.Find{
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: -0.778px;
+    width: 475px;
+    text-align: left;
+    position: relative;
+    left: 81px;
+}
+
+
+
+}
