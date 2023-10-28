@@ -365,8 +365,12 @@ footer{
     top:0;
 } 
 
+.davigale img{
+    margin-left: 6px;
+}
 
 .Insure2{
+    text-align: center;
     padding-bottom: 32px;
     font-size: 30px;
     font-family: 'DM Serif Display';
